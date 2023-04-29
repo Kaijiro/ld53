@@ -22,8 +22,8 @@ public class PlayerView : MonoBehaviour
     private void Start()
     {
 
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        //Cursor.lockState = CursorLockMode.Locked;
+        //Cursor.visible = false;
     }
 
     private void Update()
@@ -37,6 +37,7 @@ public class PlayerView : MonoBehaviour
         mouseX = Input.GetAxisRaw("Mouse X");
         mouseY = Input.GetAxisRaw("Mouse Y");
 
+        // TODO : we may limit the xRotation as it may not be useful ( all mailBox on the same level, or similar)
         yRotation += mouseX * sensX * multiplier;
         xRotation -= mouseY * sensY * multiplier;
 
