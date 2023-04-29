@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1014676019}
-  - component: {fileID: 1014676020}
+  - component: {fileID: 859980816}
   m_Layer: 0
   m_Name: Spawner
   m_TagString: Untagged
@@ -25,14 +25,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1014676018}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.26, z: 0.64}
+  m_LocalPosition: {x: 0, y: 0.26, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6419609088995232276}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1014676020
+--- !u!114 &859980816
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -41,10 +41,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1014676018}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f8491c501cc89643a282959893f8fb5, type: 3}
+  m_Script: {fileID: 11500000, guid: ba52ca015290f614c816d53309ed5d30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tract: {fileID: 2000228652884485621, guid: fb41c3ec2590d2e4ebbabe6d497255fd, type: 3}
+  tract: {fileID: 2000228652884485621, guid: ddf39b632642e6146b64d8ed4a399917, type: 3}
   launchVelocity: 10
   maxProjectile: 20
   fireDelta: 0.2
@@ -74,14 +74,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6419609088831146952}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0.26, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6419609088995232276}
   m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!20 &6419609088831146955
 Camera:
   m_ObjectHideFlags: 0
@@ -171,7 +171,7 @@ Transform:
   - {fileID: 6419609088831146953}
   - {fileID: 1014676019}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &6419609088995232275
 MeshFilter:
@@ -261,7 +261,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6419609088995232287}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd204087c2bcf1144a20d832ec4e2887, type: 3}
+  m_Script: {fileID: 11500000, guid: 56c545eca2ab1484694be7e74f378c33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   sensX: 100
@@ -298,7 +298,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6419609088995232287}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bccbe9b17dd7464aac27400be2769ea, type: 3}
+  m_Script: {fileID: 11500000, guid: d19966e99a9892c45947338e226d97e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   plan:
