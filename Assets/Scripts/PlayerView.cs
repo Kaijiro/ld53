@@ -17,7 +17,7 @@ public class PlayerView : MonoBehaviour
     float multiplier = 0.01f;
 
     float xRotation;
-    float yRotation = 90f;
+    float yRotation;
 
     private void Start()
     {
