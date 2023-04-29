@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Mailbox : MonoBehaviour
 {
+    public int capacity = 10;
     public bool isFull = false;
-    private bool hasMoved = false; // Debug flag, remove later
 
     private Transform flagTransform;
 
@@ -14,18 +14,23 @@ public class Mailbox : MonoBehaviour
         flagTransform = transform.GetChild(0).Find("Cylinder");
     }
 
-    public void Update()
-    {
-        // Should be fired by an event later
-        if (!isFull || hasMoved) return;
-
-        RaiseFlag();
-        hasMoved = true;
-    }
-
-    private void RaiseFlag() // May be public ?
+    private void RaiseFlag()
     {
         var newFlagRotation = Quaternion.Euler(0, 0, -90);
         flagTransform.rotation *= newFlagRotation;
+    }
+
+    public void OnProjectileHit()
+    {
+        if (isFull) return;
+
+        capacity--;
+        EventSystem.Instance.MailboxHit();
+
+        if (capacity == 0)
+        {
+            EventSystem.Instance.MailboxFullyFilled();
+            RaiseFlag();
+        }
     }
 }

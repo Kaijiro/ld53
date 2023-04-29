@@ -25,14 +25,13 @@ public class Ratatata : MonoBehaviour
             if (projectileCount < maxProjectile)
             {
                 nextFire = frameTime + fireDelta;
-                GameObject projectile = Instantiate(tract);                
 
+                GameObject projectile = Instantiate(tract);
                 projectile.transform.position = transform.position + cameraTransform.forward;
-
                 projectile.GetComponent<Rigidbody>().velocity = cameraTransform.forward * launchVelocity;
                 projectile.GetComponent<Projectile>().setSpawner(this);
 
-                Destroy(projectile, 0.5f);
+                //Destroy(projectile, 0.5f);
 
                 projectileCount += 1;
                 nextFire = nextFire - frameTime;

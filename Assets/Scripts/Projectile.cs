@@ -1,5 +1,5 @@
+using System;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Projectile : MonoBehaviour
@@ -7,26 +7,33 @@ public class Projectile : MonoBehaviour
     private Rigidbody rb;
     private Ratatata spawner;
 
+
+    private void Awake()
+    {
+        StartCoroutine(SelfDestruct());
+    }
+
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-
     }
-
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("MailBox"))
         {
-            Debug.Log("BINGO");
+            Debug.Log("[PROJECTILE] Tract went to Nirvana");
             Destroy(gameObject);
+
+            var mailbox = other.gameObject.GetComponent<Mailbox>();
+            mailbox.OnProjectileHit();
         }
     }
 
     private void OnDestroy()
     {
-        spawner.decreaseProjectileCount();   
+        spawner.decreaseProjectileCount();
     }
 
     public void setSpawner(Ratatata newSpawner)
@@ -34,5 +41,12 @@ public class Projectile : MonoBehaviour
         spawner = newSpawner;
     }
 
-
+    IEnumerator SelfDestruct()
+    {
+        yield return new WaitForSeconds(3);
+        StopCoroutine(nameof(SelfDestruct));
+        Debug.Log("[PROJECTILE] Tract died of old age");
+        EventSystem.Instance.TractMissed();
+        Destroy(gameObject);
+    }
 }
