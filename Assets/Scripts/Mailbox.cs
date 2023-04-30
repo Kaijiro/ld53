@@ -29,6 +29,7 @@ public class Mailbox : MonoBehaviour
 
         if (capacity == 0)
         {
+            isFull = true;
             EventSystem.Instance.MailboxFullyFilled();
             RaiseFlag();
         }
