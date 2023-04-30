@@ -3640,6 +3640,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiplier: 1
   score: 0
+  textGameObject: {fileID: 1099376015}
 --- !u!4 &1848668375
 Transform:
   m_ObjectHideFlags: 0
