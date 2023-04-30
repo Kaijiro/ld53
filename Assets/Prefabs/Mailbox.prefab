@@ -125,6 +125,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: cbe99c74743952341a293a7d443e3cfb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a291b5481280ddb479631dab9ff20b72, type: 2}
     - target: {fileID: -2577548232221058511, guid: cbe99c74743952341a293a7d443e3cfb, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0
@@ -153,6 +157,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: mailbox
       objectReference: {fileID: 0}
+    - target: {fileID: 7202271454713460447, guid: cbe99c74743952341a293a7d443e3cfb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a82f0ef7410318d40bcc14db38240e2c, type: 2}
+    - target: {fileID: 8442510506162454399, guid: cbe99c74743952341a293a7d443e3cfb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a2c7d8fda1392ed4aa1283a0f05e4041, type: 2}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: cbe99c74743952341a293a7d443e3cfb, type: 3}
