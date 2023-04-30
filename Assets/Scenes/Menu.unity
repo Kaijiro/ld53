@@ -361,7 +361,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tract (5)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -8517769008186169849, guid: ddf39b632642e6146b64d8ed4a399917, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: ddf39b632642e6146b64d8ed4a399917, type: 3}
 --- !u!4 &77833567 stripped
@@ -437,7 +438,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tract (11)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -8517769008186169849, guid: ddf39b632642e6146b64d8ed4a399917, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: ddf39b632642e6146b64d8ed4a399917, type: 3}
 --- !u!4 &80699545 stripped
@@ -513,7 +515,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tract (13)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -8517769008186169849, guid: ddf39b632642e6146b64d8ed4a399917, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: ddf39b632642e6146b64d8ed4a399917, type: 3}
 --- !u!4 &167177153 stripped
@@ -589,7 +592,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tract (2)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -8517769008186169849, guid: ddf39b632642e6146b64d8ed4a399917, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: ddf39b632642e6146b64d8ed4a399917, type: 3}
 --- !u!4 &180179244 stripped
@@ -665,7 +669,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tract (15)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -8517769008186169849, guid: ddf39b632642e6146b64d8ed4a399917, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: ddf39b632642e6146b64d8ed4a399917, type: 3}
 --- !u!4 &254239407 stripped
@@ -741,7 +746,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tract (6)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -8517769008186169849, guid: ddf39b632642e6146b64d8ed4a399917, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: ddf39b632642e6146b64d8ed4a399917, type: 3}
 --- !u!4 &255573258 stripped
@@ -817,7 +823,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tract (13)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -8517769008186169849, guid: ddf39b632642e6146b64d8ed4a399917, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: ddf39b632642e6146b64d8ed4a399917, type: 3}
 --- !u!4 &298849084 stripped
@@ -893,7 +900,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tract (8)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -8517769008186169849, guid: ddf39b632642e6146b64d8ed4a399917, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: ddf39b632642e6146b64d8ed4a399917, type: 3}
 --- !u!4 &319619005 stripped
@@ -924,8 +932,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330140791}
-  m_LocalRotation: {x: -0.072399065, y: 0.99376893, z: -0.040037945, w: 0.07469085}
-  m_LocalPosition: {x: 0.76660323, y: 0.47865853, z: -2.532969}
+  m_LocalRotation: {x: -0.06473824, y: 0.9942973, z: -0.039461136, w: 0.0749972}
+  m_LocalPosition: {x: -0.158009, y: 0.4983008, z: -2.5742521}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -946,7 +954,7 @@ Transform:
   - {fileID: 1376714726}
   m_Father: {fileID: 0}
   m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 3.943, y: 171.106, z: -8.64}
+  m_LocalEulerAnglesHint: {x: 3.943, y: 171.106, z: -7.757}
 --- !u!1 &350000039
 GameObject:
   m_ObjectHideFlags: 0
@@ -1113,7 +1121,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tract (10)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -8517769008186169849, guid: ddf39b632642e6146b64d8ed4a399917, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: ddf39b632642e6146b64d8ed4a399917, type: 3}
 --- !u!4 &400835382 stripped
@@ -1189,7 +1198,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tract (11)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -8517769008186169849, guid: ddf39b632642e6146b64d8ed4a399917, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: ddf39b632642e6146b64d8ed4a399917, type: 3}
 --- !u!4 &413465061 stripped
@@ -1265,7 +1275,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tract (6)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -8517769008186169849, guid: ddf39b632642e6146b64d8ed4a399917, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: ddf39b632642e6146b64d8ed4a399917, type: 3}
 --- !u!4 &420502710 stripped
@@ -1296,8 +1307,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 484603551}
-  m_LocalRotation: {x: 0.054045204, y: -0.005096588, z: -0.09374733, w: 0.994115}
-  m_LocalPosition: {x: -0.27598202, y: 0.42797288, z: 2.1388767}
+  m_LocalRotation: {x: 0.06779025, y: -0.025046783, z: -0.036683198, w: 0.99671036}
+  m_LocalPosition: {x: 0.435, y: 0.496, z: 2.213}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1318,7 +1329,7 @@ Transform:
   - {fileID: 1680125361}
   m_Father: {fileID: 0}
   m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 6.114, y: -1.168, z: -10.837}
+  m_LocalEulerAnglesHint: {x: 7.66, y: -3.176, z: -4.428}
 --- !u!1001 &550287479
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1387,7 +1398,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tract (5)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -8517769008186169849, guid: ddf39b632642e6146b64d8ed4a399917, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: ddf39b632642e6146b64d8ed4a399917, type: 3}
 --- !u!4 &550287480 stripped
@@ -1463,7 +1475,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tract (2)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -8517769008186169849, guid: ddf39b632642e6146b64d8ed4a399917, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: ddf39b632642e6146b64d8ed4a399917, type: 3}
 --- !u!4 &560899819 stripped
@@ -1539,7 +1552,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tract (4)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -8517769008186169849, guid: ddf39b632642e6146b64d8ed4a399917, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: ddf39b632642e6146b64d8ed4a399917, type: 3}
 --- !u!4 &600146102 stripped
@@ -1615,7 +1629,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tract (9)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -8517769008186169849, guid: ddf39b632642e6146b64d8ed4a399917, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: ddf39b632642e6146b64d8ed4a399917, type: 3}
 --- !u!4 &695341795 stripped
@@ -1691,7 +1706,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tract (10)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -8517769008186169849, guid: ddf39b632642e6146b64d8ed4a399917, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: ddf39b632642e6146b64d8ed4a399917, type: 3}
 --- !u!4 &740187594 stripped
@@ -1767,7 +1783,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tract (7)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -8517769008186169849, guid: ddf39b632642e6146b64d8ed4a399917, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: ddf39b632642e6146b64d8ed4a399917, type: 3}
 --- !u!4 &743989217 stripped
@@ -1843,7 +1860,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tract (12)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -8517769008186169849, guid: ddf39b632642e6146b64d8ed4a399917, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: ddf39b632642e6146b64d8ed4a399917, type: 3}
 --- !u!4 &748870861 stripped
@@ -1919,7 +1937,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tract (8)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -8517769008186169849, guid: ddf39b632642e6146b64d8ed4a399917, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: ddf39b632642e6146b64d8ed4a399917, type: 3}
 --- !u!4 &773925900 stripped
@@ -2130,7 +2149,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tract (3)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -8517769008186169849, guid: ddf39b632642e6146b64d8ed4a399917, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: ddf39b632642e6146b64d8ed4a399917, type: 3}
 --- !u!4 &973123820 stripped
@@ -2206,7 +2226,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tract (9)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -8517769008186169849, guid: ddf39b632642e6146b64d8ed4a399917, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: ddf39b632642e6146b64d8ed4a399917, type: 3}
 --- !u!4 &1036442299 stripped
@@ -2282,7 +2303,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tract (14)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -8517769008186169849, guid: ddf39b632642e6146b64d8ed4a399917, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: ddf39b632642e6146b64d8ed4a399917, type: 3}
 --- !u!4 &1172157597 stripped
@@ -2462,7 +2484,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tract (12)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -8517769008186169849, guid: ddf39b632642e6146b64d8ed4a399917, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: ddf39b632642e6146b64d8ed4a399917, type: 3}
 --- !u!4 &1356363165 stripped
@@ -2538,7 +2561,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tract (7)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -8517769008186169849, guid: ddf39b632642e6146b64d8ed4a399917, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: ddf39b632642e6146b64d8ed4a399917, type: 3}
 --- !u!4 &1360347896 stripped
@@ -2614,7 +2638,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tract (16)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -8517769008186169849, guid: ddf39b632642e6146b64d8ed4a399917, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: ddf39b632642e6146b64d8ed4a399917, type: 3}
 --- !u!4 &1376714726 stripped
@@ -2690,7 +2715,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tract (4)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -8517769008186169849, guid: ddf39b632642e6146b64d8ed4a399917, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: ddf39b632642e6146b64d8ed4a399917, type: 3}
 --- !u!4 &1422480078 stripped
@@ -2766,7 +2792,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tract (14)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -8517769008186169849, guid: ddf39b632642e6146b64d8ed4a399917, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: ddf39b632642e6146b64d8ed4a399917, type: 3}
 --- !u!4 &1488645812 stripped
@@ -2842,7 +2869,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tract (3)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -8517769008186169849, guid: ddf39b632642e6146b64d8ed4a399917, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: ddf39b632642e6146b64d8ed4a399917, type: 3}
 --- !u!4 &1488743617 stripped
@@ -2977,7 +3005,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tract (16)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -8517769008186169849, guid: ddf39b632642e6146b64d8ed4a399917, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: ddf39b632642e6146b64d8ed4a399917, type: 3}
 --- !u!4 &1680125361 stripped
@@ -3190,7 +3219,6 @@ GameObject:
   - component: {fileID: 2054743671}
   - component: {fileID: 2054743670}
   - component: {fileID: 2054743669}
-  - component: {fileID: 2054743672}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -3264,22 +3292,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 9.15, y: 0, z: 0}
---- !u!114 &2054743672
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2054743668}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1aecfc5e314fa2439ab8099a5edcb9b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  finalScore: {fileID: 0}
-  bestMultiplier: {fileID: 0}
-  fullBoxes: {fileID: 0}
-  missedBoxes: {fileID: 0}
 --- !u!1001 &2061878467
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3348,7 +3360,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tract (15)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -8517769008186169849, guid: ddf39b632642e6146b64d8ed4a399917, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: ddf39b632642e6146b64d8ed4a399917, type: 3}
 --- !u!4 &2061878468 stripped
