@@ -10,6 +10,12 @@ public class PlayerView : MonoBehaviour
     [SerializeField] private float sensY;
 
     [SerializeField] Transform cam;
+    [SerializeField] private float maxUp = 10f;
+    [SerializeField] private float maxDown = -5f;
+    [SerializeField] private float maxLeft = -45f;
+    [SerializeField] private float maxRight = -145f;
+
+
 
     float mouseX;
     float mouseY;
@@ -21,9 +27,8 @@ public class PlayerView : MonoBehaviour
 
     private void Start()
     {
-
-        //Cursor.lockState = CursorLockMode.Locked;
-        //Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
 
     private void Update()
@@ -41,8 +46,8 @@ public class PlayerView : MonoBehaviour
         yRotation += mouseX * sensX * multiplier;
         xRotation -= mouseY * sensY * multiplier;
 
-        // Uncomment if we decide to have only one side to the street
-        //yRotation = Mathf.Clamp(yRotation, -90f, 90f);
+        xRotation = Mathf.Clamp(xRotation, maxDown, maxUp);
+        yRotation = Mathf.Clamp(yRotation, maxRight, maxLeft);
 
         cam.transform.rotation = Quaternion.Euler(xRotation, yRotation,1);
     }
