@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MovinMap.unity
+    guid: 73310f2c4c2028a47b6aae522a9abd8f
   m_configObjects: {}

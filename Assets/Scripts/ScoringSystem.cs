@@ -1,18 +1,25 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
+using TMPro;
 using UnityEngine;
 
 public class ScoringSystem : MonoBehaviour
 {
-    [SerializeField]
-    private int multiplier = 1;
+    [SerializeField] private int multiplier = 1;
 
-    [SerializeField]
-    private int score = 0;
+    [SerializeField] private int score = 0;
+
+    public GameObject textGameObject;
+    private TMP_Text text;
 
     private void Awake()
     {
         StartCoroutine(nameof(WaitAndRegister));
+        text = textGameObject.GetComponent<TMP_Text>();
+    }
+
+    private void Update()
+    {
+        text.text = "Scoring : " + score + "\nMultiplier : x" + multiplier;
     }
 
     private void OnSuccessfulTractHitMailbox()
