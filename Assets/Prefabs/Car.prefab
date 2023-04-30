@@ -268,7 +268,7 @@ Transform:
   - {fileID: 1014676019}
   - {fileID: 1536142488}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &6419609088995232273
 BoxCollider:
@@ -314,8 +314,8 @@ MonoBehaviour:
   sensX: 100
   sensY: 100
   cam: {fileID: 6419609088831146953}
-  maxUp: 10
   maxDown: -5
+  maxUp: 20
   maxLeft: -45
   maxRight: -145
 --- !u!195 &98026623

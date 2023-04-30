@@ -10,8 +10,8 @@ public class PlayerView : MonoBehaviour
     [SerializeField] private float sensY;
 
     [SerializeField] Transform cam;
-    [SerializeField] private float maxUp = 10f;
-    [SerializeField] private float maxDown = -5f;
+    [SerializeField] private float maxDown = 15f;
+    [SerializeField] private float maxUp = -5f;
     [SerializeField] private float maxLeft = -45f;
     [SerializeField] private float maxRight = -145f;
 
