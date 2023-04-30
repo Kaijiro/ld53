@@ -1708,6 +1708,10 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 98026623, guid: b5e62172b0a7d0c4cb150c6f02ad1f72, type: 3}
+      propertyPath: m_Speed
+      value: 1.02
+      objectReference: {fileID: 0}
     - target: {fileID: 98026624, guid: b5e62172b0a7d0c4cb150c6f02ad1f72, type: 3}
       propertyPath: plan.Array.data[0]
       value: 
@@ -1780,6 +1784,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.x
       value: -15
       objectReference: {fileID: 0}
+    - target: {fileID: 1490250381097303643, guid: b5e62172b0a7d0c4cb150c6f02ad1f72, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6b52f12477bbcf84e8aa74c130a7647b, type: 2}
+    - target: {fileID: 2206414759157570798, guid: b5e62172b0a7d0c4cb150c6f02ad1f72, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6b52f12477bbcf84e8aa74c130a7647b, type: 2}
     - target: {fileID: 6419609088995232276, guid: b5e62172b0a7d0c4cb150c6f02ad1f72, type: 3}
       propertyPath: m_RootOrder
       value: 7
