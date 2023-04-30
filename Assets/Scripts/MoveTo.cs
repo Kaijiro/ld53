@@ -35,7 +35,6 @@ public class MoveTo : MonoBehaviour
         {
             agent.autoBraking = true;
             arrived = true;
-            SceneManager.LoadScene(2);
         }
 
         Debug.Log(plan.Length + " <> " + destPoint);
@@ -48,5 +47,11 @@ public class MoveTo : MonoBehaviour
         // close to the current one.
         if (!agent.pathPending && agent.remainingDistance < 0.5f && !arrived)
             GotoNextPoint();
+
+        if (arrived && agent.remainingDistance <= 0)
+        {
+            SceneManager.LoadScene(2);
+        }
+
     }
 }
