@@ -1710,7 +1710,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 98026623, guid: b5e62172b0a7d0c4cb150c6f02ad1f72, type: 3}
       propertyPath: m_Speed
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 98026624, guid: b5e62172b0a7d0c4cb150c6f02ad1f72, type: 3}
       propertyPath: plan.Array.data[0]

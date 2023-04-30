@@ -19,6 +19,11 @@ public class Projectile : MonoBehaviour
         rb = GetComponent<Rigidbody>();
     }
 
+    private void Update()
+    {
+           gameObject.transform.Rotate(0,1f, 0);
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("MailBox"))
