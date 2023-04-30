@@ -1520,10 +1520,6 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 98026623, guid: b5e62172b0a7d0c4cb150c6f02ad1f72, type: 3}
-      propertyPath: m_Speed
-      value: 1.05
-      objectReference: {fileID: 0}
     - target: {fileID: 98026624, guid: b5e62172b0a7d0c4cb150c6f02ad1f72, type: 3}
       propertyPath: plan.Array.data[0]
       value: 
@@ -1595,6 +1591,14 @@ PrefabInstance:
     - target: {fileID: 6419609088995232276, guid: b5e62172b0a7d0c4cb150c6f02ad1f72, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6419609088995232279, guid: b5e62172b0a7d0c4cb150c6f02ad1f72, type: 3}
+      propertyPath: maxUp
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6419609088995232279, guid: b5e62172b0a7d0c4cb150c6f02ad1f72, type: 3}
+      propertyPath: maxDown
+      value: -5
       objectReference: {fileID: 0}
     - target: {fileID: 6419609088995232287, guid: b5e62172b0a7d0c4cb150c6f02ad1f72, type: 3}
       propertyPath: m_Name
