@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.SceneManagement;
 
 public class MoveTo : MonoBehaviour
 {
@@ -34,6 +35,7 @@ public class MoveTo : MonoBehaviour
         {
             agent.autoBraking = true;
             arrived = true;
+            SceneManager.LoadScene(2);
         }
 
         Debug.Log(plan.Length + " <> " + destPoint);
