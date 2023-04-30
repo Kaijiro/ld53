@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.SceneManagement;
 
 public class MoveTo : MonoBehaviour
 {
@@ -46,5 +47,11 @@ public class MoveTo : MonoBehaviour
         // close to the current one.
         if (!agent.pathPending && agent.remainingDistance < 0.5f && !arrived)
             GotoNextPoint();
+
+        if (arrived && agent.remainingDistance <= 0)
+        {
+            SceneManager.LoadScene(2);
+        }
+
     }
 }
