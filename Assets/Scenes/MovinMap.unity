@@ -1592,6 +1592,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6419609088995232279, guid: b5e62172b0a7d0c4cb150c6f02ad1f72, type: 3}
+      propertyPath: maxUp
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6419609088995232279, guid: b5e62172b0a7d0c4cb150c6f02ad1f72, type: 3}
+      propertyPath: maxDown
+      value: -5
+      objectReference: {fileID: 0}
     - target: {fileID: 6419609088995232287, guid: b5e62172b0a7d0c4cb150c6f02ad1f72, type: 3}
       propertyPath: m_Name
       value: Car
