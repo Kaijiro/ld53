@@ -9,6 +9,9 @@ public class MoveTo : MonoBehaviour
     private int destPoint = 0;
     private NavMeshAgent agent;
     private bool arrived = false;
+    public AudioClip vroom;
+
+    private AudioSource audioSource;
 
     void Start()
     {
@@ -16,6 +19,15 @@ public class MoveTo : MonoBehaviour
         agent.autoBraking = false;
 
         GotoNextPoint();
+
+    }
+
+    private void Awake()
+    {
+        audioSource = GetComponent<AudioSource>();
+        audioSource.clip = vroom;
+        audioSource.loop = true;
+        audioSource.Play();
     }
 
 
@@ -50,6 +62,7 @@ public class MoveTo : MonoBehaviour
 
         if (arrived && agent.remainingDistance <= 0)
         {
+            audioSource.Stop();
             SceneManager.LoadScene(2);
         }
 
