@@ -10,8 +10,11 @@ public class MoveTo : MonoBehaviour
     private NavMeshAgent agent;
     private bool arrived = false;
     public AudioClip vroom;
+    public AudioClip headbang;
+    public AudioClip headbangFinal;
 
-    private AudioSource audioSource;
+    public AudioSource audioSourceFX;
+    public AudioSource audioSourceOST;
 
     void Start()
     {
@@ -24,10 +27,12 @@ public class MoveTo : MonoBehaviour
 
     private void Awake()
     {
-        audioSource = GetComponent<AudioSource>();
-        audioSource.clip = vroom;
-        audioSource.loop = true;
-        audioSource.Play();
+        audioSourceFX.clip = vroom;
+        audioSourceFX.loop = true;
+        audioSourceFX.Play();
+        audioSourceOST.clip = headbang;
+        audioSourceOST.loop = true;
+        audioSourceOST.Play();
     }
 
 
@@ -47,6 +52,8 @@ public class MoveTo : MonoBehaviour
         {
             agent.autoBraking = true;
             arrived = true;
+            audioSourceOST.clip = headbangFinal;
+            audioSourceOST.Play();
         }
 
         Debug.Log(plan.Length + " <> " + destPoint);
@@ -62,7 +69,8 @@ public class MoveTo : MonoBehaviour
 
         if (arrived && agent.remainingDistance <= 0)
         {
-            audioSource.Stop();
+            audioSourceFX.Stop();
+            audioSourceOST.Stop();
             SceneManager.LoadScene(2);
         }
 
