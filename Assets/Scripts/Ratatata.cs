@@ -16,15 +16,13 @@ public class Ratatata : MonoBehaviour
     public Transform cameraTransform;
 
     public AudioClip loopGun;
+    public AudioClip endGun;
     private AudioSource audioSource;
 
 
     private void Awake()
     {
         audioSource = GetComponent<AudioSource>();
-        audioSource.clip = loopGun;
-        audioSource.loop = true;
-
     }
 
     // Update is called once per frame
@@ -36,7 +34,21 @@ public class Ratatata : MonoBehaviour
         {
             if (projectileCount < maxProjectile)
             {
-                if (!audioSource.isPlaying) audioSource.Play();
+                if (!audioSource.isPlaying)
+                {
+                    audioSource.clip = loopGun;
+                    audioSource.loop = true;
+                    audioSource.Play();
+                } else
+                {
+                    if (audioSource.clip.name == "AssaultCanon_3p_tail")
+                    {
+                        audioSource.Stop();
+                        audioSource.clip = loopGun;
+                        audioSource.loop = true;
+                        audioSource.Play();
+                    }
+                }
                 nextFire = frameTime + fireDelta;
 
                 GameObject projectile = Instantiate(tract);
@@ -52,7 +64,13 @@ public class Ratatata : MonoBehaviour
             }
         }
 
-        if (Input.GetButtonUp("Fire1") && audioSource.isPlaying) audioSource.Stop();
+        if (Input.GetButtonUp("Fire1") && audioSource.isPlaying)
+        {
+            audioSource.Stop();
+            audioSource.loop = false;
+            audioSource.clip = endGun;            
+            audioSource.Play();
+        }
 
 
     }
