@@ -30,7 +30,7 @@ Transform:
   m_Children:
   - {fileID: 541467706963504551}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2559112312965708
 PrefabInstance:
@@ -100,10 +100,30 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1806680513116206669, guid: 82b90822b383bcc4fb6d15d6449c198e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 36f5202ff531a96469cb796f7688dbd5, type: 2}
+    - target: {fileID: -804731622281664130, guid: 82b90822b383bcc4fb6d15d6449c198e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0f2fb537f4f1c8f4d93915df25bc0d8e, type: 2}
     - target: {fileID: 919132149155446097, guid: 82b90822b383bcc4fb6d15d6449c198e, type: 3}
       propertyPath: m_Name
       value: mailgun
       objectReference: {fileID: 0}
+    - target: {fileID: 6317578925029434746, guid: 82b90822b383bcc4fb6d15d6449c198e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6b52f12477bbcf84e8aa74c130a7647b, type: 2}
+    - target: {fileID: 6745302439343835087, guid: 82b90822b383bcc4fb6d15d6449c198e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6b52f12477bbcf84e8aa74c130a7647b, type: 2}
+    - target: {fileID: 7202271454713460447, guid: 82b90822b383bcc4fb6d15d6449c198e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cc9fe5f915104644b8d5d7f78b6efd8d, type: 2}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 82b90822b383bcc4fb6d15d6449c198e, type: 3}
