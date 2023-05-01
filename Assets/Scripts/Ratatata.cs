@@ -14,6 +14,7 @@ public class Ratatata : MonoBehaviour
     private float frameTime = 0.0f;
 
     public Transform cameraTransform;
+    public Transform gunCanon;
 
     public AudioClip loopGun;
     public AudioClip endGun;
@@ -28,6 +29,7 @@ public class Ratatata : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        gunCanon.Rotate(Vector3.up * 15);
         frameTime = frameTime + Time.deltaTime;
 
         if (Input.GetButton("Fire1") && frameTime > nextFire)
@@ -68,7 +70,7 @@ public class Ratatata : MonoBehaviour
         {
             audioSource.Stop();
             audioSource.loop = false;
-            audioSource.clip = endGun;            
+            audioSource.clip = endGun;
             audioSource.Play();
         }
 
